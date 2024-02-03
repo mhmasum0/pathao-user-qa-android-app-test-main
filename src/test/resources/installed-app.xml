@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Logged In test suite">
+    <listeners>
+        <listener class-name="com.pathao.user.qa.listeners.AppListener"/>
+    </listeners>
+    <test verbose="2" name="Logged In test suite">
+        <classes>
+            <class name="com.pathao.user.qa.testcases.installedapptest.RideHistoryTest"/>
+            <class name="com.pathao.user.qa.testcases.installedapptest.SearchRideTest"/>
+            <class name="com.pathao.user.qa.testcases.installedapptest.LogoutTest"/>
+            <class name="com.pathao.user.qa.testcases.installedapptest.ReportRideTest"/>
+            <class name="com.pathao.user.qa.testcases.installedapptest.OrderFoodTest"/>
+        </classes>
+    </test>
+</suite>

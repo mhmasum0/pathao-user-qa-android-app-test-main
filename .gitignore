@@ -1,0 +1,16 @@
+# Intellij
+.idea/
+.idea/*
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Project
+allure-results
+screenshots
